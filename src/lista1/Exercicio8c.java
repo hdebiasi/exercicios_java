@@ -17,7 +17,13 @@ public class Exercicio8c {
         // Mostra os elementos do array
         System.out.println(java.util.Arrays.toString(numeros));
 
-        // Ordena o array com o método bolha (bubble sort)
+        /* Ordena o array com o método bolha (bubble sort)
+           O método bolha é muito eficiente, mas é simples de se entender, consistindo em
+           analisar os elementos do array 2 a 2 e trocando suas posições se o elemento da
+           direita for maior do que o da esquerda.
+           A cada passada do laço externo (for i), o maior elemento é colocado à direita
+         */
+
         int temp = 0;
         int tamanho = numeros.length;
         for(int i=0; i < tamanho; i++){
@@ -33,6 +39,8 @@ public class Exercicio8c {
         // Mostra o array ordenado
         System.out.println(java.util.Arrays.toString(numeros));
 
+        // Maior número é o último elemento do array
+        // Menor número é o primeiro elemento do array
         System.out.println("O maior número digitado foi " + numeros[tamanho-1]);
         System.out.println("O menor número digitado foi " + numeros[0]);
     }

@@ -11,6 +11,7 @@ public class Exercicio8d {
             System.out.print("Digite o " + i + "º valor: ");
             numero = ler.nextInt();
 
+            // Inicializa as variáveis maior e menor na primeira entrada de dados
             if (i == 1) {
                 maior = menor = numero;
             }
