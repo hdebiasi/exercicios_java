@@ -48,6 +48,5 @@ public class Exercicio8a {
 
         System.out.println("O maior número digitado foi " + maior);
         System.out.println("O menor número digitado foi " + menor);
-
     }
 }

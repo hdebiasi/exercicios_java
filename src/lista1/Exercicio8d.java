@@ -2,20 +2,22 @@ package lista1;
 
 import java.util.Scanner;
 
-public class Exercicio8b {
+public class Exercicio8d {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        int numero, menor = Integer.MAX_VALUE, maior = Integer.MIN_VALUE;
+        int numero, menor = 0, maior = 0;
 
         for (int i = 1; i <= 4; i++) {
             System.out.print("Digite o " + i + "º valor: ");
             numero = ler.nextInt();
 
-            if (numero > maior) {
-                maior = numero;
+            if (i == 1) {
+                maior = menor = numero;
             }
 
-            if (numero < menor) {
+            if (numero > maior) {
+                maior = numero;
+            } else {
                 menor = numero;
             }
         }

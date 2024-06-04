@@ -27,7 +27,6 @@ public class Exercicio8c {
                     numeros[j] = numeros[j-1];
                     numeros[j-1] = temp;
                 }
-
             }
         }
 
