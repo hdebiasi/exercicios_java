@@ -1,7 +1,7 @@
 package oo.exercicios1;
 
 public class Carro {
-    public String modelo;
+    public String modelo = "";
     public int ano;
     public int velocidadeAtual = 0;
 

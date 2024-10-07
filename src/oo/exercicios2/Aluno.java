@@ -1,9 +1,9 @@
 package oo.exercicios2;
 
 public class Aluno {
-    public String nome;
-    public int idade;
-    public double n1, n2, n3, n4;
+    private String nome;
+    private int idade;
+    private double n1, n2, n3, n4;
 
     public Aluno() {
         this.nome = "";
@@ -16,10 +16,8 @@ public class Aluno {
 
         this.nome = nome;
         this.idade = idade;
-        this.n1 = n1;
-        this.n2 = n2;
-        this.n3 = n3;
-        this.n4 = n4;
+        this.n1 = n1; this.n2 = n2;
+        this.n3 = n3; this.n4 = n4;
         System.out.println("\tConstrutor parametrizado...");
     }
 
