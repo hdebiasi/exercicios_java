@@ -1,8 +1,8 @@
-package exercicios2;
+package prog.exercicios2;
 
 import java.util.Scanner;
 
-public class Ex3 {
+public class Ex3a {
     public static void main(String[] args) {
         final int BITS_EM_BYTE = 8;
         long bits = 0;
