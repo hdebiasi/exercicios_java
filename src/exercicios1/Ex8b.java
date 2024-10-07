@@ -1,9 +1,11 @@
-package lista1;
+package exercicios1;
 
 import java.util.Scanner;
 
-public class Exercicio8b {
+public class Ex8b {
     public static void main(String[] args) {
+        final int NUM_VALORES = 4;
+
         Scanner ler = new Scanner(System.in);
         int numero;
 
@@ -18,7 +20,7 @@ public class Exercicio8b {
            e será mais baixo do que o valor da variável maior, portanto, ambas serão
            atualizadas com os valores corretos
          */
-        for (int i = 1; i <= 4; i++) {
+        for (int i = 1; i <= NUM_VALORES; i++) {
             System.out.print("Digite o " + i + "º valor: ");
             numero = ler.nextInt();
 
@@ -33,5 +35,7 @@ public class Exercicio8b {
 
         System.out.println("O maior número digitado foi " + maior);
         System.out.println("O menor número digitado foi " + menor);
+
+        ler.close();
     }
 }

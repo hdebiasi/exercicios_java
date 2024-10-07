@@ -1,20 +1,23 @@
-package lista1;
+package exercicios1;
 
 import java.util.Scanner;
 
-public class Exercicio8d {
+public class Ex8d {
     public static void main(String[] args) {
-        Scanner ler = new Scanner(System.in);
-        int numero, menor = 0, maior = 0;
+        final int NUM_VALORES = 4;
 
-        for (int i = 1; i <= 4; i++) {
+        Scanner ler = new Scanner(System.in);
+
+        System.out.print("Digite o 1º valor: ");
+        int numero = ler.nextInt();
+
+        // Inicializa as variáveis maior e menor na primeira entrada de dados
+        int menor = numero;
+        int maior = numero;
+
+        for (int i = 2; i <= NUM_VALORES; i++) {
             System.out.print("Digite o " + i + "º valor: ");
             numero = ler.nextInt();
-
-            // Inicializa as variáveis maior e menor na primeira entrada de dados
-            if (i == 1) {
-                maior = menor = numero;
-            }
 
             if (numero > maior) {
                 maior = numero;

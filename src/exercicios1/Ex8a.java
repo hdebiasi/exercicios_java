@@ -1,8 +1,8 @@
-package lista1;
+package exercicios1;
 
 import java.util.Scanner;
 
-public class Exercicio8a {
+public class Ex8a {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
 
@@ -48,5 +48,7 @@ public class Exercicio8a {
 
         System.out.println("O maior número digitado foi " + maior);
         System.out.println("O menor número digitado foi " + menor);
+
+        ler.close();
     }
 }

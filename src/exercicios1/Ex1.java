@@ -1,15 +1,14 @@
-package lista1;
+package exercicios1;
 
 import java.util.Scanner;
 
-public class Exercicio1 {
+public class Ex1 {
     public static void main(String[] args) {
-        int numero;
         // Cria um Scanner para leitura de dados pelo teclado
         Scanner ler = new Scanner(System.in);
 
         System.out.print("Informe um número: ");
-        numero = ler.nextInt();
+        int numero = ler.nextInt();
 
         System.out.println();
         System.out.println("O sucessor de " + numero + " é " + (numero + 1));

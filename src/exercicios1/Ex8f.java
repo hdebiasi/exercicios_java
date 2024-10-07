@@ -1,15 +1,15 @@
-package lista1;
+package exercicios1;
 
 import java.util.Scanner;
 
-public class Exercicio8c {
+public class Ex8f {
     public static void main(String[] args) {
-        final int QUANTIDADE = 4;
+        final int NUM_VALORES = 4;
 
         Scanner ler = new Scanner(System.in);
-        int[] numeros = new int[QUANTIDADE];
+        int[] numeros = new int[NUM_VALORES];
 
-        for (int i = 0; i < QUANTIDADE; i++) {
+        for (int i = 0; i < NUM_VALORES; i++) {
             System.out.print("Digite o " + (i+1) + "º valor: ");
             numeros[i] = ler.nextInt();
         }
